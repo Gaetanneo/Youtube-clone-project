@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "youtube-bucket-081724"
+    bucket         = "youtube-bucket-051724"
     region         = "us-east-1"
     key            = "Youtube-clone-app/EKS-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files"
